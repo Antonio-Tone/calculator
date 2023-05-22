@@ -1,0 +1,81 @@
+body{
+    /* background-color: #314A5E; */
+    background-image: url(/img/students-desk-wooden-background-54256611.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.displayScreen{
+    height: 3rem;
+    width: 15rem;
+    margin-left: 40px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 365px;
+    padding-bottom: 30px;
+    padding: 0.5rem;
+    /* background-color:#aed5d5; */
+    background-color: #6E95B4;
+    border-radius: 1rem;
+    /* margin: 30px; */
+    position: absolute;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.row-1,.row-2,.row-3,.row-4, .equal{
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background-color: #314A5E;
+    color: #AED5D5;
+    font-size: medium;
+    font-weight: bold;
+}
+.del, .allClear{
+    background-color: orangered;
+}
+@media screen and (max-width: 600px) {
+
+body{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 0;
+
+}
+}

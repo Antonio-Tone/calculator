@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/js.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <div>
+        <input
+          class="displayScreen"
+          name="view"
+          id="updateScreen"
+          readonly
+          placeholder="0"
+        />
+      </div>
+      <div class="top">
+        <button number class="row-1 allClear" onclick="updateScreen()">
+          AC
+        </button>
+        <div>
+          <button number class="row-1 del" onclick="updateScreen()">DEL</button>
+        </div>
+        <div>
+          <button number class="row-1 number del" onclick="updateScreen()">
+            /
+          </button>
+        </div>
+      </div>
+      <div class="top">
+        <button number class="row-1 number" onclick="updateScreen()">7</button>
+        <div>
+          <button number class="row-1 number" onclick="updateScreen()">
+            8
+          </button>
+        </div>
+        <div>
+          <button number class="row-1 number" onclick="updateScreen()">
+            9
+          </button>
+        </div>
+        <div>
+          <button number class="row-1 number del" onclick="updateScreen()">
+            +
+          </button>
+        </div>
+      </div>
+      <div class="middle">
+        <button number class="row-2 number" onclick="updateScreen()">4</button>
+        <div>
+          <button number class="row-2 number" onclick="updateScreen()">
+            5
+          </button>
+        </div>
+        <div>
+          <button number class="row-2 number" onclick="updateScreen()">
+            6
+          </button>
+        </div>
+        <div>
+          <button number class="row-2 number del" onclick="updateScreen()">
+            -
+          </button>
+        </div>
+      </div>
+      <div class="bottom">
+        <button number class="row-3 number" onclick="updateScreen()">1</button>
+        <div>
+          <button number class="row-3 number" onclick="updateScreen()">
+            2
+          </button>
+        </div>
+        <div>
+          <button number class="row-3 number" onclick="updateScreen()">
+            3
+          </button>
+        </div>
+        <div>
+          <button number class="row-3 number del" onclick="updateScreen()">
+            *
+          </button>
+        </div>
+      </div>
+      <div class="footer">
+        <button number class="row-4 number" onclick="updateScreen()">0</button>
+        <div>
+          <button number class="number row-1" onclick="updateScreen()">
+            00
+          </button>
+        </div>
+        <div>
+          <button
+            number
+            class="number period del row-1"
+            onclick="updateScreen()"
+          >
+            .
+          </button>
+        </div>
+        <div>
+          <button number class="equal del" onclick="updateScreen()">=</button>
+        </div>
+      </div>
+    </section>
+    <script src="/script/app.js"></script>
+  </body>
+</html>
